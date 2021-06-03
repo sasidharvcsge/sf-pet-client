@@ -7,5 +7,5 @@ public interface CurdService<T,ID> {
     T findById(ID id);
     T save(T object);
     void delete(T object);
-    void deleteById(T object);
+    void deleteById(Long id);
 }
